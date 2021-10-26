@@ -5,7 +5,7 @@ export const theme = responsiveFontSizes(
     spacing: 4,
     typography: {
       h1: {
-        fontSize: '9rem',
+        fontSize: '8.5rem',
         fontFamily: "'Birthstone Bounce', cursive",
       },
       h2: {

@@ -27,7 +27,10 @@ function HomePage() {
           <Typography variant="h1">Save the date</Typography>
         </Flex>
 
-        <Typography variant="h2">April 8th, 2022 | Rockville, MD</Typography>
+        <Typography variant="h2">
+          <Box display={{ xs: 'block', lg: 'inline' }}>April 8th, 2022</Box>{' '}
+          <Box display={{ xs: 'none', lg: 'inline' }}>|</Box> Rockville, MD
+        </Typography>
 
         <Typography variant="h4">Formal Inviation to Follow.</Typography>
       </Flex>

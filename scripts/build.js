@@ -1,3 +1,4 @@
+const fs = require('fs');
 const mv = require('mv');
 const touch = require('touch');
 
@@ -17,9 +18,14 @@ async function createNoJekyll() {
   return touch('docs/.nojekyll');
 }
 
+async function createCname() {
+  fs.writeFileSync('docs/CNAME', 'mattandlau.com');
+}
+
 async function run() {
   await move();
   await createNoJekyll();
+  await createCname();
 }
 
 run();

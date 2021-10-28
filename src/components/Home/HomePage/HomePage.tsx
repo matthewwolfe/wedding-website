@@ -36,7 +36,7 @@ function HomePage() {
             <Box display={{ xs: 'none', lg: 'inline' }}>|</Box> Rockville, MD
           </Typography>
 
-          <Typography variant="h4">Formal Invitation to follow.</Typography>
+          <Typography variant="h4">Formal Invitation to Follow.</Typography>
         </Flex>
 
         <Flex
@@ -67,18 +67,17 @@ function HomePage() {
           sx={{
             justifyContent: 'center',
             order: { xs: 2, lg: 1 },
-            width: { xs: 1, lg: 0.4 },
+            width: { xs: 1, lg: 0.5 },
           }}
           justifyContent="center"
         >
           <Box
             sx={{
-              height: { xs: 'auto', lg: '100vh' },
-              px: { xs: 8, sm: 24, md: 40, lg: 4 },
+              height: { xs: 600, sm: '100vh' },
             }}
           >
             {/* eslint-disable-next-line */}
-            <img alt="Holding hands" src="/images/hugging.png" height="100%" width="100%" />
+            <img alt="Holding hands" src="/images/hugging.png" height="100%" />
           </Box>
         </Flex>
 
@@ -92,7 +91,7 @@ function HomePage() {
             color: '#a44812',
             textAlign: 'center',
             order: { xs: 1, lg: 2 },
-            width: { xs: 1, lg: 0.6 },
+            width: { xs: 1, lg: 0.5 },
           }}
         >
           <Flex

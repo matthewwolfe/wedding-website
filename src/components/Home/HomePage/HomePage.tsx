@@ -36,7 +36,7 @@ function HomePage() {
             <Box display={{ xs: 'none', lg: 'inline' }}>|</Box> Rockville, MD
           </Typography>
 
-          <Typography variant="h4">Formal Inviation to Follow.</Typography>
+          <Typography variant="h4">Formal Invitation to follow.</Typography>
         </Flex>
 
         <Flex

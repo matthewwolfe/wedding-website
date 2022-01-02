@@ -2,8 +2,18 @@ import { createTheme, responsiveFontSizes } from '@mui/material/styles';
 
 export const theme = responsiveFontSizes(
   createTheme({
+    palette: {
+      primary: {
+        main: '#a44812',
+      },
+    },
     spacing: 4,
     typography: {
+      button: {
+        fontFamily: "'Zen Old Mincho', serif",
+        fontSize: '1.5rem',
+        textTransform: 'none',
+      },
       h1: {
         fontSize: '8.5rem',
         fontFamily: "'Birthstone Bounce', cursive",

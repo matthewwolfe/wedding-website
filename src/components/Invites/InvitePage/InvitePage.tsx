@@ -49,12 +49,18 @@ function InvitePage({ name }: Props) {
             <Button variant="contained">Click to RSVP</Button>
           </Flex>
 
-          <Flex sx={{ mt: 24, mb: 12 }}>
+          <Flex sx={{ mt: { xs: 16, lg: 24 }, mb: 12 }}>
             <Typography variant="h3">Additional Information</Typography>
           </Flex>
 
-          <Flex sx={{ width: 1 }}>
-            <Flex sx={{ justifyContent: 'center', width: 1 / 2 }}>
+          <Flex sx={{ flexDirection: { xs: 'column', lg: 'row' }, width: 1 }}>
+            <Flex
+              sx={{
+                justifyContent: 'center',
+                mb: { xs: 8, lg: 0 },
+                width: { xs: 1, lg: 1 / 2 },
+              }}
+            >
               <Flex sx={{ flexDirection: 'column' }}>
                 <Typography sx={{ mb: 6 }} variant="h4">
                   Venue
@@ -67,7 +73,12 @@ function InvitePage({ name }: Props) {
               </Flex>
             </Flex>
 
-            <Flex sx={{ justifyContent: 'center', width: 1 / 2 }}>
+            <Flex
+              sx={{
+                justifyContent: 'center',
+                width: { xs: 1, lg: 1 / 2 },
+              }}
+            >
               <Flex sx={{ flexDirection: 'column' }}>
                 <Typography sx={{ mb: 6 }} variant="h4">
                   Hotel

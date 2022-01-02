@@ -37,7 +37,8 @@ function InvitePage({ name }: Props) {
 
           <Flex sx={{ mt: 8 }}>
             <Typography variant="h4">
-              Matthew and Laura invite you to share their wedding day on April 8th, 2022.
+              Matthew and Laura invite you to share their wedding day on April 8th, 2022 from 6pm to
+              12.
             </Typography>
           </Flex>
 

@@ -50,7 +50,7 @@ function InvitePage({ name }: Props) {
             <Button variant="contained">Click to RSVP</Button>
           </Flex>
 
-          <Flex sx={{ mt: { xs: 16, lg: 24 }, mb: 12 }}>
+          <Flex sx={{ mt: { xs: 16, lg: 24 }, mb: 16 }}>
             <Typography variant="h3">Additional Information</Typography>
           </Flex>
 

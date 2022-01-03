@@ -90,6 +90,20 @@ function InvitePage({ name }: Props) {
                 </Typography>
 
                 <Typography variant="h5">1 Helen Heneghan Wy, Rockville, MD 20850</Typography>
+
+                <Flex sx={{ justifyContent: 'center', mt: 6 }}>
+                  <Button
+                    variant="contained"
+                    onClick={() =>
+                      window.open(
+                        'https://www.choicehotels.com/reservations/groups/WK37G6',
+                        '_blank',
+                      )
+                    }
+                  >
+                    Book a Room
+                  </Button>
+                </Flex>
               </Flex>
             </Flex>
           </Flex>

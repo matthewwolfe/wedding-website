@@ -1,7 +1,7 @@
 import { InvitePage } from 'components/Invites';
 
 function Invite() {
-  return <InvitePage name="Bradley Watson and Ashley Phons" />;
+  return <InvitePage name="Maria F. Davila and Partner" />;
 }
 
 export default Invite;

@@ -51,7 +51,10 @@ function InvitePage({ name, rsvpCount }: Props) {
             <Button
               variant="contained"
               onClick={() => {
+                console.log(rsvpCount);
                 const rsvpLink = RSVP_LINKS.get(rsvpCount);
+
+                console.log(rsvpLink);
 
                 if (rsvpLink) {
                   window.location.href = rsvpLink;

@@ -1,9 +1,10 @@
 import { Button, Link, Typography } from '@mui/material';
 import { Flex } from 'components/Flex';
+import { RSVP_LINKS } from 'constants/rsvp';
 
 import { Props } from './invitePage.types';
 
-function InvitePage({ name }: Props) {
+function InvitePage({ name, rsvpCount }: Props) {
   return (
     <Flex
       sx={{
@@ -47,7 +48,18 @@ function InvitePage({ name }: Props) {
           </Flex>
 
           <Flex sx={{ mt: 16 }}>
-            <Button variant="contained">Click to RSVP</Button>
+            <Button
+              variant="contained"
+              onClick={() => {
+                const rsvpLink = RSVP_LINKS.get(rsvpCount);
+
+                if (rsvpLink) {
+                  window.location.href = rsvpLink;
+                }
+              }}
+            >
+              Click to RSVP
+            </Button>
           </Flex>
 
           <Flex sx={{ mt: { xs: 16, lg: 24 }, mb: 16 }}>

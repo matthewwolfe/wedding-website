@@ -103,18 +103,26 @@ function InvitePage({ name, rsvpCount }: Props) {
 
                 <Typography variant="h5">1 Helen Heneghan Wy, Rockville, MD 20850</Typography>
 
-                <Flex sx={{ justifyContent: 'center', mt: 6 }}>
-                  <Button
-                    variant="contained"
-                    onClick={() =>
-                      window.open(
-                        'https://www.choicehotels.com/reservations/groups/WK37G6',
-                        '_blank',
-                      )
-                    }
-                  >
-                    Book a Room
-                  </Button>
+                <Flex sx={{ flexDirection: 'column' }}>
+                  <Flex sx={{ justifyContent: 'center', my: 6 }}>
+                    <Button
+                      variant="contained"
+                      onClick={() =>
+                        window.open(
+                          'https://www.choicehotels.com/reservations/groups/WK37G6',
+                          '_blank',
+                        )
+                      }
+                    >
+                      Book a Room
+                    </Button>
+                  </Flex>
+
+                  <Typography fontWeight="bold">
+                    **We have blocked rooms with a special discount for our guests. Make sure to
+                    book before February 28th to get the discounted rate.** If you have any issues
+                    please email Matt - matthew.wolfe2@gmail.com
+                  </Typography>
                 </Flex>
               </Flex>
             </Flex>

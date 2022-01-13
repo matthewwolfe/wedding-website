@@ -44,7 +44,7 @@ function InvitePage({ name, rsvpCount }: Props) {
           </Flex>
 
           <Flex sx={{ mt: 8 }}>
-            <Typography variant="h4">Please respond by February 15th, 2022</Typography>
+            <Typography variant="h4">Please respond by February 25th, 2022</Typography>
           </Flex>
 
           <Flex sx={{ mt: 16 }}>

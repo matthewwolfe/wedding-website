@@ -3,6 +3,8 @@ import { CssBaseline } from '@mui/material';
 import { ThemeProvider } from '@mui/system';
 import { theme } from 'theme/theme';
 
+import 'public/css/app.css';
+
 import type { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {

@@ -11,7 +11,7 @@ export const theme = responsiveFontSizes(
     typography: {
       button: {
         fontFamily: "'Zen Old Mincho', serif",
-        fontSize: '1.5rem',
+        fontSize: '1.4rem',
         textTransform: 'none',
       },
       h1: {

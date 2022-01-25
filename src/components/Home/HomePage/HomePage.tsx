@@ -11,7 +11,7 @@ function HomePage() {
         <Flex
           sx={{
             px: { xs: 4, lg: 0 },
-            py: { xs: 48, lg: 0 },
+            py: { xs: 42, lg: 0 },
             flexDirection: 'column',
             justifyContent: 'center',
             height: { xs: 'initial', lg: '100vh' },

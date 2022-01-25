@@ -1,20 +1,12 @@
 import { Box, Button, Typography } from '@mui/material';
-import Image from 'next/image';
 import { Flex } from 'components/Flex';
-import dippingImage from 'public/images/dipping.jpg';
 
 function HomePage() {
   return (
     <>
       <Flex sx={{ justifyContent: 'center' }} width={1}>
-        <Image
-          alt="Dipping Photo"
-          className="background-image"
-          layout="fill"
-          objectFit="cover"
-          quality={100}
-          src={dippingImage}
-        />
+        {/* eslint-disable-next-line */}
+        <img alt="Dipping Photo" className="background-image" src="/images/dipping.jpg" />
 
         <Flex
           sx={{

@@ -67,7 +67,9 @@ function HomePage() {
               }}
             >
               <Box mb={4}>
-                <Typography variant="h4">Accommodations</Typography>
+                <Typography sx={{ textDecoration: 'underline' }} variant="h4">
+                  Accommodations
+                </Typography>
               </Box>
 
               <Typography variant="h5">Cambria Hotel Rockville</Typography>
@@ -94,7 +96,9 @@ function HomePage() {
               }}
             >
               <Box mb={4}>
-                <Typography variant="h4">What to Wear</Typography>
+                <Typography sx={{ textDecoration: 'underline' }} variant="h4">
+                  What to Wear
+                </Typography>
               </Box>
 
               <Typography variant="h5">Formal Attire</Typography>
@@ -109,7 +113,9 @@ function HomePage() {
               }}
             >
               <Box mb={4}>
-                <Typography variant="h4">Parking Area</Typography>
+                <Typography sx={{ textDecoration: 'underline' }} variant="h4">
+                  Parking Area
+                </Typography>
               </Box>
 
               <Typography variant="h5">Closest Public Parking - Garage A</Typography>
@@ -157,7 +163,9 @@ function HomePage() {
               }}
             >
               <Box sx={{ mb: 4 }}>
-                <Typography variant="h4">The Ceremony</Typography>
+                <Typography sx={{ textDecoration: 'underline' }} variant="h4">
+                  The Ceremony
+                </Typography>
               </Box>
 
               <Typography variant="h5">6pm - Friday, April 8, 2021</Typography>
@@ -172,7 +180,9 @@ function HomePage() {
               }}
             >
               <Box sx={{ mb: 4 }}>
-                <Typography variant="h4">Cocktail Hour</Typography>
+                <Typography sx={{ textDecoration: 'underline' }} variant="h4">
+                  Cocktail Hour
+                </Typography>
               </Box>
 
               <Typography variant="h5">7pm</Typography>
@@ -187,7 +197,9 @@ function HomePage() {
               }}
             >
               <Box sx={{ mb: 4 }}>
-                <Typography variant="h4">Dinner & Party</Typography>
+                <Typography sx={{ textDecoration: 'underline' }} variant="h4">
+                  Dinner & Party
+                </Typography>
               </Box>
 
               <Typography variant="h5">8pm</Typography>

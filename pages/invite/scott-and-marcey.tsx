@@ -1,7 +1,7 @@
 import { InvitePage } from 'components/Invites';
 
 function Invite() {
-  return <InvitePage name="Scotty Rogers and Marcey Ella" rsvpCount={2} />;
+  return <InvitePage name="Scott and Marcey Rogers" rsvpCount={2} />;
 }
 
 export default Invite;
